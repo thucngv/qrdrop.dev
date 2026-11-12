@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy | QRDrop</title>
-<meta name="description" content="How QRDrop handles files, camera access, and advertising data on Android and iOS.">
+<meta name="description" content="How QRDrop handles files, camera access, and QR scanning diagnostics on Android and iOS.">
 <link rel="canonical" href="https://qrdrop.dev/privacy.html">
 <style>
   body { margin: 0; padding: 24px 16px; background: #0b171d; color: #eff8f7; font: 16px/1.6 system-ui, sans-serif; }
@@ -18,13 +18,13 @@
 <main>
   <a href="./index.html">Back to QRDrop</a>
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated <time datetime="2026-11-11">November 11, 2026</time></p>
+  <p class="muted">Last updated <time datetime="2026-11-12">November 12, 2026</time></p>
   <p>This policy covers the QRDrop mobile app for Android and iOS and the QRDrop web sender at qrdrop.dev.</p>
 
   <h2>Data we collect and why</h2>
   <ul>
     <li><strong>File and camera data.</strong> File names, file contents, and camera or video data are processed locally to send or receive files. QRDrop does not collect this data on its servers.</li>
-    <li><strong>Advertising data.</strong> Google AdMob may collect device identifiers, IP address, approximate location, interactions, and diagnostics for the purposes described under Advertising below.</li>
+    <li><strong>QR scanning diagnostics.</strong> The Android and iOS apps use Google ML Kit for on-device QR recognition. The SDK may send usage and diagnostic information to Google as described below.</li>
     <li><strong>Website request data.</strong> The hosting provider may process request information to deliver and protect the website.</li>
     <li><strong>Support messages.</strong> If you contact us, we use the contact details and information you provide to respond and resolve your request.</li>
   </ul>
@@ -33,13 +33,13 @@
   <p>QRDrop processes the files you select and the QR codes you scan on your device. The web sender reads the selected file in your browser and displays it as QR codes. The receiving app reconstructs the file from those codes. QRDrop does not upload file contents or file names to its servers, and transferring a file does not require a QRDrop account or an internet connection once the sender is open.</p>
   <p>The app uses camera access to scan QR codes. In versions that support video scanning, the app processes videos you select or record to read the codes in them. You can revoke camera access in your device settings. Files you export remain in the location you choose until you delete them there. If you choose a cloud-backed location, that provider handles the saved copy under its own policy.</p>
 
-  <h2>Advertising</h2>
-  <p>Versions of QRDrop that include advertising use Google AdMob to display in-app ads on Android and iOS. The Google Mobile Ads SDK may collect and share data such as your IP address and approximate location, device or advertising identifiers, app and ad interactions, and diagnostic or performance information. Google may use this data to deliver and measure ads, personalize ads where permitted, and prevent fraud. Advertising requests use an internet connection. QRDrop does not send your transferred files, QR contents, or camera footage to AdMob.</p>
-  <p>Where applicable, you can manage consent through the app’s privacy choices. You can also use the advertising controls on Android or the Tracking settings on iOS. Google explains its data handling and controls in its <a href="https://policies.google.com/technologies/partner-sites">notice about apps that use Google services</a> and its <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
+  <h2>Google ML Kit diagnostics</h2>
+  <p>Google ML Kit processes QR images on your device. When an internet connection is available, the SDK may send Google information such as a per-installation identifier, device model and operating system, app version, scanner configuration, image dimensions, scan events, processing times, and error codes. Google uses this information for diagnostics and usage analytics. See Google’s ML Kit disclosures for <a href="https://developers.google.com/ml-kit/ios-data-disclosure">iOS</a> and <a href="https://developers.google.com/ml-kit/android-data-disclosure">Android</a>.</p>
+  <p>For information about how Google handles and retains data it receives, and how to exercise your privacy choices with Google, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
   <h2>Data retention and deletion</h2>
   <p>QRDrop does not keep server copies of transferred files. To delete an exported file, remove it from the location where you saved it. If you contact us, we keep your message and contact details for as long as needed to respond, resolve the request, and meet any applicable legal obligations. You can request deletion of personal information we hold by emailing the address below.</p>
-  <p>If your version includes ads, you can withdraw advertising consent through the app’s privacy choices where available. You can also manage Android advertising preferences or revoke tracking permission in iOS Settings. Google explains how it retains advertising data and how to manage it in its <a href="https://policies.google.com/privacy">Privacy Policy</a>.</p>
+  <p>The app stores preferences on your device. When scan recovery is enabled, the app may temporarily store camera frames on your device to retry missed scans. You can turn off scan recovery in the app settings. You can also revoke camera access in your device settings and remove local app data by deleting the app.</p>
 
   <h2>Website hosting</h2>
   <p>When you visit qrdrop.dev, the hosting provider may process standard request information such as your IP address, browser information, and the page you request to serve and protect the site. Files you select in the web sender are processed locally.</p>
