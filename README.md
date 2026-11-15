@@ -7,6 +7,17 @@ No network connection, USB connection, or Bluetooth is required.
 
 ---
 
+## 🎬 Demo Video
+
+<div align="center">
+  <a href="https://www.youtube.com/shorts/gJ2YX5hCujs">
+    <img src="https://img.youtube.com/vi/gJ2YX5hCujs/maxresdefault.jpg" alt="QRDrop Demo" width="60%" style="border-radius: 12px; border: 1px solid #30474d;" />
+  </a>
+  <p><em>Click to watch the QRDrop demo on YouTube Shorts</em></p>
+</div>
+
+---
+
 ## 🚀 How It Works
 
 QRDrop displays the selected file as a series of QR codes directly in your browser. 
